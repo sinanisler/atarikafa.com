@@ -1,0 +1,705 @@
+/*
+Theme Name: AtariKafa.com v3
+Theme URI: https://atarikafa.com/
+Author: AtariKafa
+Author URI: https://atarikafa.com/
+Description: Bu tema ve site AtariKafa tarafından kodlandı.  atarikafa@atarikafa.com
+Version: 3.0
+*/
+
+
+
+/* DARK SİTE */
+
+body{
+	color:#e5e5e5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #dfdbdb;
+}
+
+.comment-reply {
+    background: #191b1c;
+}
+
+.widgets-atarikafa li a {
+  color: rgb(166, 158, 146);
+}
+
+.category-sitebar .widgettitle ,
+.widgets-atarikafa h2,
+.category-sitebar h6{
+  color: rgb(166, 158, 146) !important;
+}
+
+.widgets-atarikafa li a:hover {
+	color:#9b0a0a ;
+}
+
+.atari-category {
+  background-color: rgb(40, 44, 45) !important;
+}
+
+.single-blog-inner-3 {
+    border: 2px solid #4c4946;
+}
+
+.blog-page-area {
+	background:#191b1c;
+	
+}
+
+.post-area{
+	background:#191b1c;
+	
+}
+
+.page-title-area{
+	background:rgb(59, 0, 0);
+}
+
+.page-title-area .breadcrumb-inner .page-list li{
+	color:#a69d92;
+}
+
+.page-list li{
+	color:#a69d92;
+}
+
+.page-title-area .breadcrumb-inner .page-list li{
+  color: rgb(169, 161, 150);
+}
+
+.single-blog-inner .single-blog-details .meta span{
+  color: rgb(169, 161, 150);
+}
+
+.single-blog-inner .single-blog-details p {
+  color: rgb(166, 158, 146);
+}
+
+.blog-details-page-inner ul li{
+  color: rgb(166, 158, 146);
+}
+
+.blog-details-page-inner .single-blog-inner p {
+  color: rgb(166, 158, 146);
+}
+
+
+.post-area .post-meta-single li{
+	color:rgb(136, 128, 116) ;
+}
+
+.post-area .title a  , 
+.post-area .title{
+	color:#eee ;
+}
+
+.post-area .title a:hover {
+	color:#9b0a0a ;
+}
+
+.single-blog-inner h5{
+	color:#eee ;
+}
+
+.single-blog-inner h3 a{
+	color:#eee ;
+}
+
+
+.single-blog-inner h3 a:hover {
+	color:#9b0a0a ;
+}
+
+
+
+
+
+
+
+
+
+.customize-support {padding-top:   !important;}
+
+.wp-block-jetpack-slideshow_button-next , .wp-block-jetpack-slideshow_button-prev 
+{ background-color: rgba(230, 8, 8, 0.5) !important}
+
+.atari-index-first.style-overlay .thumb::before {display:none; height: 45% !important;}
+.atari-index-first.style-overlay .thumb::after {display:none; height: 55% !important;}
+
+.single-post-wrap.style-overlay .thumb::before { height: 45% !important;}
+.single-post-wrap.style-overlay .thumb::after { height: 55% !important;}
+
+.navbar-area .nav-container .navbar-collapse .navbar-nav li + li {
+    margin-left: 12px;
+    padding-left: 16px;
+}
+
+.navbar-area .nav-container a:hover {
+	opacity:0.9;
+}
+
+.atari-index-first .index a ,
+.atari-index-first .post-meta-single {
+	text-shadow: 2px 2px black;
+}
+
+
+.atari-home-url{
+    width: 69px;
+    height: 34px;
+    float: left;
+    box-sizing: border-box;
+    outline: none;
+    text-align: left;
+    background: url(img/atarikafa-logo-beyaz.png);
+    margin-right: 30px;
+}
+.atari-home-url:hover{
+    opacity: 0.6 !important;
+}
+
+.content-atari-haritalar img{
+    width:105px !important;
+}
+
+.index-atari img{
+    width:105px !important;
+}
+
+.atarikafa-cat{
+    padding-left:0;
+}
+
+.ss-wrap-atari {
+    margin-bottom: 20px !important;
+    height:60px;
+  }
+  
+
+.atari-category{
+    width: 100%;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e2e2e2;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.atari-cat-link{
+    height: 28px;
+    line-height: 28px;
+    padding: 0 7px;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 14px;
+    background: #C10E0E;
+    color: #fff;
+    flex-wrap:initial;
+    letter-spacing: -1px;
+    
+}
+
+.atari-category:hover{
+    opacity:0.9;
+    
+}
+
+.atari-cat-link:hover{
+    background: #9b0404;
+    color: #fff;
+    
+}
+
+.schematic-atari{
+    background: center url(img/schematic.jpg) #018bd3
+}
+
+
+
+
+
+.sayfalama{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.sayfalama .page-numbers{
+	width:auto;
+	height:auto;
+	float:left;
+	padding:10px 15px 10px 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-display: swap;
+	font-weight:700;
+	font-size:20px;
+	background:#D70D0D;
+	color:white;
+	margin-right:10px;
+}
+
+.sayfalama  .current{
+	background:#e2e2e2;
+	color:black;
+}
+
+.sayfalama .page-numbers:hover{
+	opacity:0.8;
+}
+
+.sayfalama  .dots{
+	background:#e2e2e2;
+	color:black;
+}
+
+
+
+.widget_recent_entries li{
+	margin-bottom: 15px;
+}
+
+
+.single-blog-inner .single-blog-details h3{
+	font-size:29px;
+}
+
+
+
+
+.widgets-atarikafa{
+	
+}
+
+.widgets-atarikafa li{
+	list-style: none;
+}
+
+.widgets-atarikafa .widget{
+	margin-bottom:40px;
+}
+
+
+
+.widgets-atarikafa .widgettitle{
+	margin-bottom: 0;
+	font-size: 20px;
+	display: inline-block;
+	color: #000;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #b3b3b3;
+	font-weight: normal;
+}
+
+
+
+.page-list p{font-size: 14px;}
+
+
+dl, ol, ul {
+    padding-left: 0;
+}
+
+
+
+
+
+.btn-base {
+    background: #C20C0C;
+    color: #fff;
+    border: 0;
+}
+
+.btn-base::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #622828;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-duration: 0.4s;
+}
+
+
+
+.single-blog-inner-3{
+	margin-bottom:70px;
+}
+
+
+
+
+
+.single-post-wrap.style-overlay .details {
+    position: absolute;
+    bottom: 0;
+    padding: 4px 10px;
+    z-index: 4;
+}
+
+
+.gallery-columns-3 img{
+	max-width: auto !important;
+	height: auto !important;
+}
+
+
+.gallery-columns-3 {
+	margin-bottom:20px !important;
+}
+
+
+
+.schematics-atari .attachment-resim-800x460{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blog-details-page-inner iframe{
+    width: 100%;
+    min-height: 410px;
+}
+
+
+.blog-details-page-inner li{
+	list-style-position: inside;
+}
+
+
+
+
+.wp-block-button a{
+    width: 100%;
+    padding:14px;
+    color:white;
+    background:#9b0404;
+    border-radius: 3px;
+    margin:5px;
+    
+}
+
+
+.wp-block-button a:hover{
+    background:#a02020;
+    
+}
+
+
+
+/*---------------------------------------
+	2.2.Typography        
+-----------------------------------------*/
+
+.blog-details-page-inner iframe{
+    width: 100%;
+    min-height: 410px;
+}
+
+.blog-details-page-inner ul {
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
+}
+
+.blog-details-page-inner ul li{
+	margin-bottom:10px;
+	padding-left:10px;
+	font-size:19px;
+	 
+}
+
+
+
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	font-display: swap;
+	
+}
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+}
+.alignright {
+	display: inline;
+	float: right; 
+	margin-left: 24px;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-width: 768px){
+    img.alignleft { float: left; }
+    img.alignright { float: right; }    
+}
+
+blockquote {
+	position: relative;
+	width: 100%;
+	border-width: 0 0 0 5px;
+	border-style: solid;
+	padding: 20px;
+}
+blockquote::before {
+	content: "\f10d";
+	display: table;
+	float: left;
+	font-family: "Montserrat";
+	font-display: swap;
+	font-size: 28px;
+	margin-top: 6px;
+	font-weight: normal;
+	width: 6%;
+}
+blockquote p {
+	font-style: italic;
+	width: 94%;
+	display: table;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+
+
+/* -------- Table ------ */
+.blog-details-page-inner table, .blog-details-page-inner table {
+    border-collapse: collapse;
+    margin: 0 0 1.5em;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.blog-details-page-inner table, .blog-details-page-inner table .blog-details-page-inner th, .blog-details-page-inner th .blog-details-page-inner td, .blog-details-page-inner td {
+    border: 1px solid #e9e9e9;
+}
+table, th, td {
+    border: 1px solid #e9e9e9;
+}
+.blog-details-page-inner th, .blog-details-page-inner th {
+    background: #f6f6f6;
+    color: #01012f;
+    padding: 8px 11.2px;
+    text-align: left;
+}
+
+.blog-details-page-inner td, .blog-details-page-inner td {
+    padding: 8px 11.2px;
+}
+
+.blog-details-page-inner ol, .blog-details-page-inner ol {
+    list-style: decimal;
+}
+
+
+.article-date{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-bottom:10px;
+}
+
+
+.author-block{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:20px;
+}
+
+.author-block img{
+	float:left;
+	margin-right:10px;
+}
+
+
+
+
+
+.sayfalama{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.sayfalama .page-numbers{
+	width:auto;
+	height:auto;
+	float:left;
+	padding:10px 15px 10px 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-display: swap;
+	font-weight:700;
+	font-size:20px;
+	background:#D70D0D;
+	color:white;
+	margin-right:10px;
+}
+
+.sayfalama  .current{
+	background:#e2e2e2;
+	color:black;
+}
+
+.sayfalama .page-numbers:hover{
+	opacity:0.8;
+}
+
+.sayfalama  .dots{
+	background:#e2e2e2;
+	color:black;
+}
+
+
+
+   
+
+/* Images */
+    
+.img-responsive{display: block;max-width: 100%;height: auto;margin: 0px auto;}
+.img-circle { border-radius: 50%; }    
+    
+/* Comments */
+.comment-reply-link{display:none}
+
+textarea, input {border:1px solid #e4e4e4;}
+textarea {width:100%;}
+.comment-list, .children{list-style:none;}
+ul.children {list-style:none;padding-left:0px; margin-left:0px;}
+.comment-wrap { border-bottom: 1px solid #ccc; padding-bottom: 40px; margin-bottom: 20px; position:relative; }
+.comment-wrap .comments-title{padding-top:20px;}
+.comment-wrap .comment-img { float: left; min-height:150px; margin-right: 10px; padding-bottom:25px;}
+.comment-author {text-align:left;}
+.comment-reply {position:absolute;top:0px;right:0px;font-style:italic; padding:5px 5px;background:#f5f5f5;}
+.comment-author,.comment-author a{font-size: 14px;text-transform: uppercase; letter-spacing: 2px;margin-bottom:2px;}
+.comment-date{font-size: 10px;text-transform: uppercase; letter-spacing: 2px;font-style:italic;display:block;padding-bottom:7px;}
+.depth-2 .comment-wrap {padding-left:30px;}
+.depth-3 .comment-wrap {padding-left:60px;}
+.depth-4 .comment-wrap {padding-left:90px;}
+.depth-5 .comment-wrap {padding-left:120px;}
+.depth-6 .comment-wrap {padding-left:150px;}
+.depth-7 .comment-wrap {padding-left:180px;}
+.depth-8 .comment-wrap {padding-left:210px;}
+.depth-9 .comment-wrap {padding-left:240px;}
+.depth-10 .comment-wrap {padding-left:270px;}
+#commentform #comment,#commentform #author,#commentform #email,#commentform #url{display:block;width:100%;}
+#commentform input[type="submit"]{display:inline-block;padding:8px 15px;border:1px solid #e4e4e4;font-size: 
+10px;text-transform: uppercase;letter-spacing: 3px;background: #fff;margin-top:15px;}
+#commentform input[type="submit"]:hover {background: #e2fcff;}
+.title-line{border-top: 1px dotted #ccc;display: block;max-width: 30%;margin: 0 auto 25px;}
+
+/* Responsive */
+
+@media (max-width: 767px) {
+    .comment-list, .children { padding-left: 0px; }
+    .comment-wrap .comment-img { float: none;margin: 0px;width: 100%;padding-bottom: 0px; }
+    .comment-img>img { display: block;margin: 0px auto; }
+    .comment-author, .comment-author a, .comment-date { text-align:center; }
+    .depth-2 .comment-wrap,.depth-3 .comment-wrap,.depth-4 .comment-wrap,.depth-5 .comment-wrap,.depth-6 
+	.comment-wrap,.depth-7 .comment-wrap,.depth-8 .comment-wrap,.depth-9 .comment-wrap,.depth-10 .comment-wrap {padding-left:0px;}
+    .comment-reply { position: relative; text-align: center; display: block; margin-top: 25px;}
+}
+
+
+
+.search-section{
+	width:100%;
+	float:left;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.search-section-input{
+	width:80%;
+	float:left;
+	padding:10px;
+}
+
+.search-section-button{
+	width:15%;
+	float:left;
+	padding:10px;
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 44%, rgba(208,208,208,1) 100%);
+	margin-left:10px;
+}
+
+.search-section-button:hover{
+	background: rgb(255,255,255);
+	background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 44%, rgba(228,228,228,1) 100%);
+}
+
+.search-section-alt{
+	width:80%;
+	float:left;
+	margin-top:10px;
+}
+
+.search-section-alt .textwidget ul {
+	text-align: center;
+}
+
+    
+.search-section-alt .textwidget li {
+	width:auto;
+	display: inline-block;
+    margin-bottom: 8px;
+}
+
+.search-section-alt .textwidget li a{
+	width:auto;
+	padding:5px;
+	font-size:13px;
+    color: gray;
+    background: #fff;
+    font-weight: 500;
+    padding: 2px 8px 2px 8px;
+    margin-right: 10px;
+    transition: 0.3s;
+	letter-spacing:0px;
+	border-radius:3px;
+}
+
+
+.search-section-alt .textwidget li a:hover{
+	background:#C20C0C;
+	color:White;
+}
+
+
+
+
