@@ -8,3 +8,6 @@ WordPress Theme for Gaming Website atarikafa.com
 - bootstrap
 - optimization
 - seo
+
+
+2021: 1.5 million visit...
