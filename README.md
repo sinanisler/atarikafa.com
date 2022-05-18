@@ -1,6 +1,6 @@
 # AtariKafa.com
 
-WordPress Theme for Gaming Website atarikafa.com
+WordPress Theme for Gaming Modding Website atarikafa.com
 
 
 - custom post types
