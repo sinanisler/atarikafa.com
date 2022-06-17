@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
     box-sizing: border-box;
     outline: none;
     text-align: left;
-    background: url(img/atarikafa-logo-beyaz.png);
+    background: url(assets/img/atarikafa-logo-beyaz.png);
     margin-right: 30px;
 }
 .atari-home-url:hover{
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .schematic-atari{
-    background: center url(img/schematic.jpg) #018bd3
+    background: center url(assets/img/schematic.jpg) #018bd3
 }
 
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php bloginfo( "name" ) ?></title>
 
-    <link rel=icon href="<?php bloginfo("stylesheet_directory"); ?>/img/favicon.png" type="image/png">
+    <link rel=icon href="<?php bloginfo("stylesheet_directory"); ?>/assets/img/favicon.png" type="image/png">
     <link rel="stylesheet" href="<?php bloginfo("stylesheet_directory"); ?>/assets/css/vendor.css">
     <link rel="stylesheet" href="<?php bloginfo("stylesheet_directory"); ?>/assets/css/responsive.css">
     <link rel="stylesheet" href="<?php bloginfo("stylesheet_directory"); ?>/assets/css/style.css?v=0.23">
@@ -57,7 +57,7 @@
             <div class="container nav-container">
                 <div class="responsive-mobile-menu">
                     <div class="logo d-lg-none d-block">
-                        <a class="main-logo" href="<?php bloginfo("home"); ?>"><img src="<?php bloginfo("stylesheet_directory"); ?>/img/atarikafa-logo-beyaz.png" alt="img"></a>
+                        <a class="main-logo" href="<?php bloginfo("home"); ?>"><img src="<?php bloginfo("stylesheet_directory"); ?>/assets/img/atarikafa-logo-beyaz.png" alt="img"></a>
                     </div>
                     <button class="menu toggle-btn d-block d-lg-none" data-target="#nextpage_main_menu" 
                     aria-expanded="false" aria-label="Toggle navigation">
